@@ -33,9 +33,9 @@ A multi-criteria decision analysis framework for evaluating supply chain configu
 Suppliers          Factories       Warehouses       Retailers
    S1 ─────┬──────► F1 ──────┬────► W1 ──────┬────► R1
    S2 ─────┼──────► F2 ──────┼────► W2 ──────┼────► R2
-   S3 ─────┘               └────► W3 ──────┼────► R3
-                                           ├────► R4
-                                           └────► R5
+   S3 ─────┘                 └────► W3 ──────┼────► R3
+                                             ├────► R4
+                                             └────► R5
 ```
 
 - **3 Suppliers**: S1 (primary, 120 units), S2 (secondary, 100 units), S3 (tertiary, 60 units)
