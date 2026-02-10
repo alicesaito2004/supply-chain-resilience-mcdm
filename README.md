@@ -31,37 +31,37 @@ python network_viz.py
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                           DATA LAYER                                     │
+│                           DATA LAYER                                    │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  models.py              Network, Node, Edge data structures              │
-│  configurations.py      C1-C8 strategic configuration definitions        │
-│  disruptions.py         Cyberattack, supplier failure, demand surge      │
+│  models.py              Network, Node, Edge data structures             │
+│  configurations.py      C1-C8 strategic configuration definitions       │
+│  disruptions.py         Cyberattack, supplier failure, demand surge     │
 └─────────────────────────────────────────────────────────────────────────┘
                                     │
                                     ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                         COMPUTATION LAYER                                │
+│                         COMPUTATION LAYER                               │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  flow_solver.py         Min-cost flow LP solver (scipy)                  │
-│  criteria.py            SCOR criteria computation from flow results      │
+│  flow_solver.py         Min-cost flow LP solver (scipy)                 │
+│  criteria.py            SCOR criteria computation from flow results     │
 └─────────────────────────────────────────────────────────────────────────┘
                                     │
                                     ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                          ANALYSIS LAYER                                  │
+│                          ANALYSIS LAYER                                 │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  mcdm.py                WSM, WPM, TOPSIS, PROMETHEE II methods           │
-│  stakeholders.py        CFO, COO, CMO weight profiles                    │
-│  sensitivity.py         Probability and weight sensitivity sweeps        │
+│  mcdm.py                WSM, WPM, TOPSIS, PROMETHEE II methods          │
+│  stakeholders.py        CFO, COO, CMO weight profiles                   │
+│  sensitivity.py         Probability and weight sensitivity sweeps       │
 └─────────────────────────────────────────────────────────────────────────┘
                                     │
                                     ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                          OUTPUT LAYER                                    │
+│                          OUTPUT LAYER                                   │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  run_analysis.py        Main pipeline - generates 24 rankings            │
-│  visualize.py           Heatmaps, ranking charts                         │
-│  network_viz.py         Network topology diagrams                        │
+│  run_analysis.py        Main pipeline - generates 24 rankings           │
+│  visualize.py           Heatmaps, ranking charts                        │
+│  network_viz.py         Network topology diagrams                       │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
